@@ -1,0 +1,12 @@
+# Core dependencies
+fastapi
+uvicorn
+python-dotenv
+getstream[webrtc,telemetry]
+
+# Local packages (Vercel will install from these paths)
+./agents-core
+./plugins/gemini
+./plugins/deepgram
+./plugins/elevenlabs
+./plugins/getstream
